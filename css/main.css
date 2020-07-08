@@ -1,0 +1,125 @@
+ .log {
+   border-radius: 60%;
+   height: 80px;
+ }
+
+ .hclass {
+   height: 90px;
+   display: flex;
+   justify-content: space-between;
+   padding: 0 2%;
+   text-align: right;
+   border-bottom: 5px solid black;
+   margin-bottom: 2px;
+ }
+
+ .subtitle {
+   display: block;
+   font-size: 15px;
+   color: black;
+ }
+
+ .mainsec {
+   width: 100%;
+   justify-content: space-around;
+   display: flex;
+ }
+
+ .p1 {
+   text-align: center;
+   align-items: center;
+   font-size: 25px;
+ }
+
+ .mainart {
+   width: 18%;
+   border: 2px solid black;
+   background-color: #F6EDFA;
+   color: #000080;
+ }
+
+ .sndsec {
+   border: 2px solid black;
+   margin-top: 2px;
+   display: flex;
+   justify-content: space-between;
+   background-color: #D5F5E3;
+   padding: 10px;
+ }
+
+ .art1 {
+   width: 75%;
+   font-size: 23px;
+ }
+
+ .art2 {
+   width: 20%;
+ }
+
+ .appr:hover {
+   border-radius: 10px;
+   box-shadow: 2px 2px;
+   transform: scale(1.1);
+ }
+
+ .art2:hover {
+   border-radius: 10px;
+   transform: scale(1.1);
+ }
+
+ .foot {
+   width: 99.7%;
+   border: 2px solid black;
+   margin-top: 1px;
+   text-align: center;
+   background-color: #C0C0C0;
+   font-size: 20px;
+ }
+
+ /* media query fro mobile */
+ @media (min-device-width:320px) and (max-device-width:500px) {
+   .hclass {
+     width: 96%;
+     padding: 0 2%;
+   }
+
+   .mainsec, .sndsec {
+     flex-wrap: wrap;
+     width: 100%;
+     padding: 0%;
+   }
+
+   .mainart {
+     width: 100%;
+     margin: 1% 0px;
+   }
+
+   .art1, .art2 {
+     width: 100%;
+   }
+
+   .subtitle {
+     font-size: 13px;
+   }
+ }
+
+ @media screen and (min-width:501px) and (max-width:780px) {
+   .mainsec {
+     flex-wrap: wrap;
+     background-color: #FCFCD4;
+   }
+
+   .mainart {
+     width: 45%;
+     margin-top: 5px;
+   }
+
+   .txt,.subtitle {
+     font-size: 23px;
+   }
+
+   .doc {
+     height: 520px;
+   }
+
+ }
